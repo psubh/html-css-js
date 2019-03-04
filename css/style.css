@@ -1,0 +1,92 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+body{
+	font-size:20px;
+	overflow-x: hidden;
+	font-family: 'Flamenco', cursive;
+}
+header{
+	background-image:url('../images/motivate.jpg');
+	background-size: cover;
+	height:100vh;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.row{
+	max-width: 1180px;
+	margin: 0 auto;
+}
+.logo{
+	height: 300px;
+	width: auto;
+	float:center;
+	margin-top:150px;
+}
+.main{
+	float:right;
+	margin-top:0px;
+}
+.main li{
+	display:inline-block;
+	list-style:none;
+	margin-left:20px;
+}
+.main li a{
+	color: red;
+	text-decoration: none;
+	text-transform:uppercase;
+	font-size:90%;
+	font-weight: 100;
+}
+.main li a:hover{
+	border-bottom: 2px solid #bf55ec;
+}
+.main-content-header{
+	width:1180px;
+	position:absolute;
+	top:40%;
+	left:70%;
+	transform:translate(-50%,-70%);
+}
+h1{
+	color:red;
+	margin-bottom: 20px;
+}
+.btn{
+	display:inline-block;
+	padding: 10px 30px;
+	font-weight:lighter;
+	text-decoration:none;
+	text-transform:uppercase;
+	border-radius:200px;
+	transition: background-color 0.2s,border 0.2s,color 0.2s;
+}
+.btn-full{
+	background-color: transparent;
+	color:#bf55ec;
+	margin-right:15px;
+	border:1px solid #bf55ec;
+
+}
+.btn-full:hover{
+	background-color:#fff;
+}
+.colorchange{
+	animation: colorchangehoney 1s infinite;
+}
+@keyframes colorchangehoney{
+	0%{color:blue;}
+	25%{color:orange;}
+	50%{color:black;}
+	100%{color:violet;}
+}
+.mobile-icon{
+	display:inline-block;
+	color: #fff;
+	float:right;
+	margin-top:20px;
+	margin-right:10px;
+}
